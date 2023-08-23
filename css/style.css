@@ -332,5 +332,13 @@ a:hover{
 	}
 }
 
+@media (max-width:1200px) {
+    .imgAds {
+        width: 100%;
+        height: auto;
+    }
 
-	
+    .mua-embed-container-personal {
+        padding-bottom: 55% !important;
+    }
+}
