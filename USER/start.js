@@ -261,12 +261,14 @@ window.addEventListener("load", function () {
   //Aquí se puede meter la función addCode() para que el contenido cargue después de que se hayan
   //puesto cargado los estilos y que no se vea el html solo al inicio.
   addCode();
-});
 
-fetch("https://api64.ipify.org?format=json")
+  fetch("https://api64.ipify.org?format=json")
   .then((response) => response.json())
   .then((data) => {
     let ip = data.ip;
+});
+
+
     let divIp = document.getElementById("ip");
     divIp.textContent = "Dirección IP: " + ip;
   });
