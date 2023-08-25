@@ -265,10 +265,11 @@ window.addEventListener("load", function () {
   fetch("https://api64.ipify.org?format=json")
   .then((response) => response.json())
   .then((data) => {
+    
     let ip = data.ip;
-});
-
-
     let divIp = document.getElementById("ip");
     divIp.textContent = "Dirección IP: " + ip;
   });
+
+});
+
