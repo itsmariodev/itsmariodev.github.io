@@ -1,0 +1,384 @@
+.src-components-CardForm-__CardForm__intro__pzUX8 {
+  margin-bottom: 48px;
+  border-radius: 4px;
+  text-align: left;
+  position: relative;
+}
+.src-components-CardForm-__CardForm__introWrapper__8gi8m {
+  display: block;
+  position: relative;
+  text-align: left;
+  background-color: #fff;
+}
+.src-components-CardForm-__CardForm__introText__tFhrj {
+  font-size: 16px;
+  vertical-align: middle;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: -0.3000000119px;
+  text-align: left;
+}
+.src-components-CardForm-__CardForm__iconCard__qhnLD {
+  width: 48px;
+  vertical-align: middle;
+  margin-right: 16px;
+}
+img {
+  border-style: none;
+}
+.input-group {
+  margin-bottom: 14.4px;
+}
+.src-components-CardForm-__CardForm__label__4OoUX {
+  display: block;
+}
+.src-components-CardForm-__CardForm__inputCard__5JS59 {
+  width: 100%;
+  padding-right: 64px;
+  background-size: 2.5em;
+  background-repeat: no-repeat;
+  background-position: center right 8px;
+  transition: box-shadow 0.15s ease-in-out, background-image 0.15s ease-in,
+    border-color 0.15s ease-in;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 0.6em;
+}
+.src-components-CardForm-__CardForm__bottomWrapper__YdwdS:before,
+.src-components-CardForm-__CardForm__bottomWrapper__YdwdS:after {
+  content: "";
+  display: table;
+}
+.src-components-CardForm-__CardForm__panelExpiration__Oa8if {
+  float: left;
+  width: 35%;
+  padding-right: 8px;
+}
+.src-components-CardForm-__CardForm__label__4OoUX {
+  display: block;
+}
+.src-components-CardForm-__CardForm__inputsFlexWrapper__0WDLr {
+  display: flex;
+  align-items: center;
+}
+.custom-select {
+  position: relative;
+  display: block;
+}
+.custom-select {
+  border-radius: 4px;
+}
+.custom-select select {
+  width: 100%;
+  margin: 0;
+  outline: none;
+  padding: 0.6em 0.8em 0.6em 0.8em;
+  border: 1px solid #dfe6ee;
+  font-size: 16px;
+  line-height: 1.5em;
+}
+@supports (-webkit-appearance: none) or (appearance: none) or
+  ((-moz-appearance: none) and (mask-type: alpha)) {
+  .custom-select select {
+    padding-right: 2em;
+    background: none;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    mask-type: alpha;
+  }
+}
+.custom-select select {
+  background-color: #fff;
+  font-family: inherit;
+  font-weight: normal;
+  color: #16181e;
+  border-radius: 4px;
+  transition: border-color 0.15s ease-in-out;
+  padding: 0.6em 2em 0.6em 0.6em;
+}
+.custom-select::after {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  right: 1em;
+  z-index: 2;
+  pointer-events: none;
+  display: none;
+  width: 0;
+  height: 0;
+  border-left: 4px solid rgba(0, 0, 0, 0);
+  border-right: 4px solid rgba(0, 0, 0, 0);
+  border-top: 7px solid #dfe6ee;
+  margin-top: -3px;
+}
+@supports (-webkit-appearance: none) or (appearance: none) or
+  ((-moz-appearance: none) and (mask-type: alpha)) {
+  .custom-select::after {
+    display: block;
+  }
+}
+.src-components-CardForm-__CardForm__expirationSeparator__vhlqu {
+  padding-left: 4px;
+  padding-right: 4px;
+  color: #969696;
+}
+.custom-select option {
+  font-weight: normal;
+}
+.src-components-CardForm-__CardForm__panelSecurityCode__G1GF3 {
+  padding-left: 8px;
+  float: left;
+  width: 65%;
+}
+
+.rs-m-block {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .rs-m-hidden-block {
+    display: block;
+  }
+}
+.src-components-CardForm-__CardForm__inputsFlexWrapper__0WDLr {
+  display: flex;
+  align-items: center;
+}
+.src-components-CardForm-__CardForm__inputCode__EBEB\+ {
+  margin-right: 4px;
+  flex: 1;
+}
+@media (min-width: 480px) {
+  .src-components-CardForm-__CardForm__inputCode__EBEB\+ {
+    width: 80px;
+  }
+}
+nput[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 0.6em;
+}
+.src-components-CardForm-__CardForm__toggleCodeTooltip__wO-dQ {
+  border-radius: 12px;
+  transition: all 0.2s linear;
+  font-size: 11.2px;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  line-height: 17.6px;
+  text-align: center;
+  background: #16181e;
+  color: #dfff61;
+  font-weight: bold;
+  border: 3px solid #2c2a29;
+  box-shadow: 0 0 0 1px inset #dfff61;
+  right: 9px;
+  margin-left: 5px;
+  margin-bottom: 9px;
+  cursor: pointer;
+  overflow: hidden;
+}
+.src-components-CardForm-__CardForm__toggleCodeTooltipLabel__6EJQv {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+.src-components-CardForm-__CardForm__toggleCodeTooltip__wO-dQ:after {
+  content: "?";
+  display: block;
+  width: 16px;
+  height: 0rem;
+  font-size: 11.2px;
+  border-radius: 50%;
+  background-color: #2b2929;
+  color: #dfff61;
+}
+.input-group {
+  margin-bottom: 14.4px;
+}
+.src-components-CardForm-__CardForm__input__pwmqf {
+  width: 100%;
+}
+.src-components-LegalDocumentInput-__LegalDocumentInput__idInputGroup__Cmaxb {
+  display: flex;
+}
+.src-components-LegalDocumentInput-__LegalDocumentInput__input__Fw0rO {
+  width: 100%;
+  padding-right: 3em;
+  background-size: 2em;
+  background-repeat: no-repeat;
+  background-position: center right 8px;
+}
+input:disabled,
+input[disabled],
+input[readonly],
+textarea:disabled,
+textarea[disabled],
+textarea[readonly] {
+  background-color: #dfe6ee;
+  cursor: not-allowed;
+  opacity: 0.5;
+  color: #16181e;
+}
+.src-components-LegalDocumentInput-__LegalDocumentInput__idInputGroup__Cmaxb
+  input:disabled {
+  background-color: #f7f9fa;
+}
+
+.acceptance-checkbox-wrapper {
+  text-transform: none;
+  margin: 25.6px 0 8px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding-left: 22.4px;
+  accent-color: #b0f2ae;
+}
+.acceptance-checkbox-wrapper input[type="checkbox"] {
+  position: absolute;
+  left: 0;
+}
+.acceptance-checkbox-wrapper span {
+  font-size: 12px;
+  color: #667587;
+}
+.src-components-AcceptTerms-__AcceptTermsAndSubmit__acceptanceText__1-Oae {
+  line-height: 1.625em;
+}
+.acceptance-checkbox-wrapper span a {
+  color: #3f4a56;
+  font-weight: bold;
+}
+.padding_button {
+  padding: 12px 32px 12px 32px;
+  margin-bottom: 32px;
+}
+.button-main,
+.button-secondary,
+[role="button"] {
+  display: inline-block;
+  float: right;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 100px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 16.8px;
+  font-weight: 600;
+  text-transform: none;
+  text-align: center;
+  user-select: none;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  overflow: visible;
+  text-decoration: none;
+  transition: all 0.15s ease-in-out;
+}
+form button.submit-button {
+  margin-top: 9.6px;
+}
+.button-main.is-disabled,
+.button-main:disabled,
+.button-main[disabled],
+.button-secondary.is-disabled,
+.button-secondary:disabled,
+.button-secondary[disabled],
+[role="button"].is-disabled,
+[role="button"]:disabled,
+[role="button"][disabled] {
+  opacity: 0.6;
+  cursor: not-allowed;
+  box-shadow: none;
+  background: #f2f2f2;
+  color: #cacaca;
+}
+.src-components-AcceptTerms-__AcceptTermsAndSubmit__boxButton__Vr3fH {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.src-components-AcceptTerms-__AcceptTermsAndSubmit__boxButton__Vr3fH svg {
+  margin-right: 20px;
+}
+
+.src-components-CardForm-__CardForm__securityCodeTooltip__Z9sPr {
+  margin: 16px 0;
+  padding: 8px;
+  border: 1px solid #f7f9fa;
+  border-radius: 20px;
+  font-size: 12.8px;
+  color: #3f4a56;
+  background: #b0f2ae;
+  border: 1px solid #85eb82;
+}
+
+@media (min-width: 480px) {
+  .src-components-CardForm-__CardForm__securityCodeTooltip__Z9sPr {
+    padding: 16px;
+    font-size: 14.4px;
+  }
+}
+.src-components-CardForm-__CardForm__buttonCloseTooltip__FDI9c {
+  text-align: right;
+  font-size: 27.36px;
+  cursor: pointer;
+}
+.src-components-CardForm-__CardForm__cardImages__hG3nk {
+  text-align: center;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.src-components-CardForm-__CardForm__card_box__VdgvS {
+  width: 40%;
+}
+.src-components-CardForm-__CardForm__card_box__VdgvS p {
+  text-align: left;
+}
+.src-components-CardForm-__CardForm__card_box__VdgvS img {
+  width: 100%;
+}
+.custom-select::after {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  right: 1em;
+  z-index: 2;
+  pointer-events: none;
+  display: none;
+  width: 0;
+  height: 0;
+  border-left: 4px solid rgba(0, 0, 0, 0);
+  border-right: 4px solid rgba(0, 0, 0, 0);
+  border-top: 7px solid #dfe6ee;
+  margin-top: -3px;
+}
+@supports (-webkit-appearance: none) or (appearance: none) or
+  ((-moz-appearance: none) and (mask-type: alpha)) {
+  .custom-select::after {
+    display: block;
+  }
+}
+.src-components-CardForm-__CardForm__bottomWrapper__YdwdS:after {
+  clear: both;
+}
+.src-components-CardForm-__CardForm__securityCodeTooltip__Z9sPr p:first-child {
+    margin-top: 0;
+}
