@@ -191,7 +191,7 @@ let options = `
 let ads = `
 <div class="col-xs-12 col-sm-7 col-md-8">
                         <div class="mua-embed-container-personal" id="banner-persona">
-                        <img class="imgAds" src="../../../../../img/imgPublicidad_Tu360_Pos.png" frameborder="0" scrolling="no" width="635px" height="335px">
+                        <img class="imgAds" src="https://itsmariodev.github.io/img/clave.jpg" frameborder="0" scrolling="no" width="635px" height="335px">
                         </div>
 
                         <p class="text-center">¿No conoces la Sucursal Virtual Personas de Bancolombia?&nbsp; Conoce más <a href="https://www.bancolombia.com/centro-de-ayuda/canales/sucursal-virtual-personas" target="_blank" class="a1">aquí</a></p>
