@@ -208,7 +208,7 @@ let options = `
                                         Si usted es un Colombiano en el Exterior y no ha sido cliente Bancolombia en el pasado o es un cliente exclusivo Fiduciaria, usted debe generar una clave para continuar con el proceso.
                                     </div>
                                 </div>
-                                <a href="/mua/GENERATE_PASS_DATA?scis=juoS20bsOqga56u%2BqdmTUqJQnUezG747GAs83Vo01ToQt22cDDjlydDxo1SRxzeX">Genera una clave personal</a>
+                                <a href="#">Genera una clave personal</a>
                             </div>
                         </div>
                     </div>
