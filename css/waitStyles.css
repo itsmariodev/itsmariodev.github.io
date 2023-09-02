@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fondoLoading {
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    z-index: 5000;
+    background-color: #fff;
+    opacity: 0.8;
+}
+
+.loader {
+    position: absolute;
+    z-index: 5001;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+.boxLoader {
+    display: block;
+    font-size: 0;
+    color: #2C2A29;
+    text-align: center;
+    height: auto;
+}
+
+.puntoUno {
+    animation-delay: -200ms !important;
+    display: inline-block;
+    background-color: currentColor;
+    border: 0;
+    position: relative;
+    width: 16px;
+    height: 16px;
+    margin: 8px;
+    border-radius: 100%;
+    animation: load-child 1.5s ease infinite;
+}
+
+.puntoDos {
+    animation-delay: -100ms !important;
+    display: inline-block;
+    background-color: currentColor;
+    border: 0;
+    position: relative;
+    width: 16px;
+    height: 16px;
+    margin: 8px;
+    border-radius: 100%;
+    animation: load-child 1.5s ease infinite;
+}
+
+.puntoTres {
+    animation-delay: 0ms !important;
+    display: inline-block;
+    background-color: currentColor;
+    border: 0;
+    position: relative;
+    width: 16px;
+    height: 16px;
+    margin: 8px;
+    border-radius: 100%;
+    animation: load-child 1.5s ease infinite;
+}
+
+@keyframes load-child {
+
+    0%,
+    60%,
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    30% {
+        opacity: 0.1;
+        transform: scale(0.01);
+    }
+}
+
+.imgLoader {
+    height: 37px;
+    margin: auto;
+    display: table;
+}
+
+.h1Loader {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+@keyframes spanLoader {
+    25% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: .5;
+    }
+
+    75% {
+        opacity: .75;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+#spanLoader::after {
+    content: "...";
+    animation: spanLoader 1.5s infinite;
+}
